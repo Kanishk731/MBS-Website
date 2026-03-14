@@ -14,7 +14,7 @@
     "hero_section": {
       "type": "component",
       "component": "section.hero",
-      "repeatable": true
+      "repeatable": false
     },
     "MBS_Lifecycle": {
       "type": "component",
@@ -34,7 +34,7 @@
     "total_talent_info": {
       "type": "component",
       "component": "title-subtile-button-image.title-subtitle-button-image",
-      "repeatable": true
+      "repeatable": false
     }
   }
 }

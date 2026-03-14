@@ -14,7 +14,7 @@
     "hero_section": {
       "type": "component",
       "component": "section.hero",
-      "repeatable": true
+      "repeatable": false
     },
     "Technical_Pillars": {
       "type": "component",
@@ -24,7 +24,7 @@
     "banner": {
       "type": "component",
       "component": "title-subtile-button-image.title-subtitle-button-image",
-      "repeatable": true
+      "repeatable": false
     },
     "Strategic_Business_Outcomes": {
       "type": "component",

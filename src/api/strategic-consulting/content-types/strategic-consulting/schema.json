@@ -14,7 +14,7 @@
     "hero_section": {
       "type": "component",
       "component": "section.hero",
-      "repeatable": true
+      "repeatable": false
     },
     "Strategic_Excellence": {
       "type": "component",
@@ -24,12 +24,12 @@
     "banner": {
       "type": "component",
       "component": "title-subtile-button-image.title-subtitle-button-image",
-      "repeatable": true
+      "repeatable": false
     },
     "Strategic_info": {
       "type": "component",
       "component": "title-subtile-button-image.title-subtitle-button-image",
-      "repeatable": true
+      "repeatable": false
     }
   }
 }

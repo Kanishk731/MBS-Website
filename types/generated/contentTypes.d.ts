@@ -456,7 +456,7 @@ export interface ApiAboutUsAboutUs extends Struct.SingleTypeSchema {
       'title-subtile.title-subtitle',
       true
     >;
-    hero_section: Schema.Attribute.Component<'section.hero', true>;
+    hero_section: Schema.Attribute.Component<'section.hero', false>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -553,7 +553,7 @@ export interface ApiDataAnalyticsCloudAiDataAnalyticsCloudAi
   attributes: {
     banner: Schema.Attribute.Component<
       'title-subtile-button-image.title-subtitle-button-image',
-      true
+      false
     >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -562,7 +562,7 @@ export interface ApiDataAnalyticsCloudAiDataAnalyticsCloudAi
       'title-subtile.title-subtitle',
       true
     >;
-    hero_section: Schema.Attribute.Component<'section.hero', true>;
+    hero_section: Schema.Attribute.Component<'section.hero', false>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -721,7 +721,7 @@ export interface ApiInnovationInnovation extends Struct.SingleTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    hero_section: Schema.Attribute.Component<'section.hero', true>;
+    hero_section: Schema.Attribute.Component<'section.hero', false>;
     innovation: Schema.Attribute.Component<
       'title-subtile-button-image.title-subtitle-button-image',
       true
@@ -760,7 +760,7 @@ export interface ApiOperativeManagementOperativeManagement
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     Global_Efficiency: Schema.Attribute.Component<'pillar.pillar', true>;
-    hero_section: Schema.Attribute.Component<'section.hero', true>;
+    hero_section: Schema.Attribute.Component<'section.hero', false>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -845,12 +845,12 @@ export interface ApiStrategicConsultingStrategicConsulting
   attributes: {
     banner: Schema.Attribute.Component<
       'title-subtile-button-image.title-subtitle-button-image',
-      true
+      false
     >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    hero_section: Schema.Attribute.Component<'section.hero', true>;
+    hero_section: Schema.Attribute.Component<'section.hero', false>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -861,7 +861,7 @@ export interface ApiStrategicConsultingStrategicConsulting
     Strategic_Excellence: Schema.Attribute.Component<'pillar.pillar', false>;
     Strategic_info: Schema.Attribute.Component<
       'title-subtile-button-image.title-subtitle-button-image',
-      true
+      false
     >;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -888,7 +888,7 @@ export interface ApiTotalTalentSolutionTotalTalentSolution
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    hero_section: Schema.Attribute.Component<'section.hero', true>;
+    hero_section: Schema.Attribute.Component<'section.hero', false>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -903,7 +903,7 @@ export interface ApiTotalTalentSolutionTotalTalentSolution
     >;
     total_talent_info: Schema.Attribute.Component<
       'title-subtile-button-image.title-subtitle-button-image',
-      true
+      false
     >;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
