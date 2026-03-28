@@ -10,5 +10,36 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {}
+  "attributes": {
+    "hero_section": {
+      "type": "component",
+      "component": "section.hero",
+      "repeatable": false
+    },
+    "title_subtile": {
+      "type": "component",
+      "component": "title-subtile.title-subtitle",
+      "repeatable": true
+    },
+    "info": {
+      "type": "component",
+      "component": "title-subtile-button-image.title-subtitle-button-image",
+      "repeatable": false
+    },
+    "Result_section": {
+      "type": "component",
+      "component": "title-subtile.title-subtitle",
+      "repeatable": true
+    },
+    "number_growth": {
+      "type": "component",
+      "component": "number-growth.number-growth",
+      "repeatable": true
+    },
+    "banner": {
+      "type": "component",
+      "component": "title-subtile-button-image.title-subtitle-button-image",
+      "repeatable": false
+    }
+  }
 }

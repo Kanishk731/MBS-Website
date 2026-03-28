@@ -486,16 +486,37 @@ export interface ApiAiCentricProductEngineeringAiCentricProductEngineering
     draftAndPublish: true;
   };
   attributes: {
+    banner: Schema.Attribute.Component<
+      'title-subtile-button-image.title-subtitle-button-image',
+      false
+    >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    hero_section: Schema.Attribute.Component<'section.hero', false>;
+    info: Schema.Attribute.Component<
+      'title-subtile-button-image.title-subtitle-button-image',
+      false
+    >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
       'api::ai-centric-product-engineering.ai-centric-product-engineering'
     > &
       Schema.Attribute.Private;
+    number_growth: Schema.Attribute.Component<
+      'number-growth.number-growth',
+      true
+    >;
     publishedAt: Schema.Attribute.DateTime;
+    Result_section: Schema.Attribute.Component<
+      'title-subtile.title-subtitle',
+      true
+    >;
+    title_subtile: Schema.Attribute.Component<
+      'title-subtile.title-subtitle',
+      true
+    >;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -864,6 +885,10 @@ export interface ApiPlatformProductEngineeringPlatformProductEngineering
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     hero_section: Schema.Attribute.Component<'section.hero', false>;
+    info: Schema.Attribute.Component<
+      'title-subtile-button-image.title-subtitle-button-image',
+      true
+    >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -874,14 +899,14 @@ export interface ApiPlatformProductEngineeringPlatformProductEngineering
       'number-growth.number-growth',
       true
     >;
-    progress: Schema.Attribute.Component<
-      'progress-section.progress-section',
-      false
-    >;
     publishedAt: Schema.Attribute.DateTime;
     Result_section: Schema.Attribute.Component<
       'title-subtile.title-subtitle',
       false
+    >;
+    title_subtile: Schema.Attribute.Component<
+      'title-subtile.title-subtitle',
+      true
     >;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

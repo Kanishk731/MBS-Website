@@ -16,10 +16,10 @@
       "component": "section.hero",
       "repeatable": false
     },
-    "progress": {
+    "title_subtile": {
       "type": "component",
-      "component": "progress-section.progress-section",
-      "repeatable": false
+      "component": "title-subtile.title-subtitle",
+      "repeatable": true
     },
     "Result_section": {
       "type": "component",
@@ -35,6 +35,11 @@
       "type": "component",
       "component": "title-subtile-button-image.title-subtitle-button-image",
       "repeatable": false
+    },
+    "info": {
+      "type": "component",
+      "component": "title-subtile-button-image.title-subtitle-button-image",
+      "repeatable": true
     }
   }
 }
