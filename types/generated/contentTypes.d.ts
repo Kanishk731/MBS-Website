@@ -996,7 +996,7 @@ export interface ApiWorkspaceSolutionWorkspaceSolution
     hero_section: Schema.Attribute.Component<'section.hero', false>;
     info: Schema.Attribute.Component<
       'title-subtile-button-image.title-subtitle-button-image',
-      false
+      true
     >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
@@ -1004,7 +1004,6 @@ export interface ApiWorkspaceSolutionWorkspaceSolution
       'api::workspace-solution.workspace-solution'
     > &
       Schema.Attribute.Private;
-    Pillar: Schema.Attribute.Component<'pillar.pillar', false>;
     publishedAt: Schema.Attribute.DateTime;
     title_subtile: Schema.Attribute.Component<
       'title-subtile.title-subtitle',
