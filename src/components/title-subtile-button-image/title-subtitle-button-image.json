@@ -9,7 +9,7 @@
       "type": "string"
     },
     "subtitle": {
-      "type": "string"
+      "type": "text"
     },
     "button": {
       "type": "component",

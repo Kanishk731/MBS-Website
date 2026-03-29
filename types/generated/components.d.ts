@@ -247,7 +247,7 @@ export interface TitleSubtileButtonImageTitleSubtitleButtonImage
       'images' | 'files' | 'videos' | 'audios',
       true
     >;
-    subtitle: Schema.Attribute.String;
+    subtitle: Schema.Attribute.Text;
     title: Schema.Attribute.String;
   };
 }
