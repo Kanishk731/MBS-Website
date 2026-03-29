@@ -1030,6 +1030,7 @@ export interface ApiWorkspaceSolutionWorkspaceSolution
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    title: Schema.Attribute.String;
     title_subtile: Schema.Attribute.Component<
       'title-subtile.title-subtitle',
       false

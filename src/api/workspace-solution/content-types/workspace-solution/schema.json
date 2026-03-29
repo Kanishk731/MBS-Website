@@ -21,6 +21,9 @@
       "component": "title-subtile.title-subtitle",
       "repeatable": false
     },
+    "title": {
+      "type": "string"
+    },
     "info": {
       "type": "component",
       "component": "title-subtile-button-image.title-subtitle-button-image",
